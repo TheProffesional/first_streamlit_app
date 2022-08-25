@@ -54,7 +54,7 @@ except URLError as e:
 
 
 # don't run anything past here while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 
 
@@ -68,9 +68,9 @@ streamlit.stop()
 
 
 # take the json version of the response and normalize it 
-fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+#fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # output it the screen as a table 
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
 
 
 streamlit.header("The fruit load list contains: ")
