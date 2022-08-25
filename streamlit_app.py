@@ -91,7 +91,7 @@ if streamlit.button('Get Fruit Load List'):
 
 
 
-streamlit.dataframe(my_data_rows)
+#streamlit.dataframe(my_data_rows)
 
 
 
